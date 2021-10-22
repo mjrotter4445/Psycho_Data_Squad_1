@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Adding config.py file
+*config.py
+
+# Adding anything extra practice codes here too 
+##other practice files ex API_practice.ipynb
+
+
 # C extensions
 *.so
 
