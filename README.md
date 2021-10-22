@@ -5,9 +5,10 @@ edits as of 10/22/21 insert a cool graphic here
  
 "Data Jobs in your Future. Where in America can your future take you?"
 
+
 4 Key Roles:
-* Square
-* Triangle
+* Square - Git Hub 
+* Triangle - Machine Learning
 * Circle - create mockup of database with a set of sample data.
 This is to ensure the database will work seamlessly with the rest of the project
 * X - all of us - Which Technologies will we use?
