@@ -5,6 +5,7 @@ __pycache__/
 
 # Adding config.py file
 *config.py
+*.DS_Store
 
 # Adding anything extra practice codes here too 
 ##other practice files ex API_practice.ipynb
