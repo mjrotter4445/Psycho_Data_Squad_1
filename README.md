@@ -1,5 +1,5 @@
 # PSYCHO DATA SQUAD!
-edits as of 10/22/21 insert a cool graphic here 
+edits as of 10/23/21 insert a cool graphic here 
 
 ##   1st Segment - Sketching it out
  
