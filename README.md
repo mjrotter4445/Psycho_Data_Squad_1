@@ -1,7 +1,7 @@
 # PSYCHO DATA SQUAD!
 edits as of 10/23/21 insert a cool graphic here 
 
-##   1st Segment - Sketching it out
+###   1st Segment - Sketching it out
  
 "Data Jobs in your Future. Where in America can your future take you?"
 
