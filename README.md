@@ -16,7 +16,7 @@ This is to ensure the database will work seamlessly with the rest of the project
 -  Plotly will be used for graphs and further analysis will be completed using Python.
 
 ## Database Storage
-Mongo is the database we intend to use, and we will integrate Flask to display the data.
+Postgres is the database we intend to use, and we will integrate Flask to display the data.
 
 ## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. *We need a little more verbiage here.*
