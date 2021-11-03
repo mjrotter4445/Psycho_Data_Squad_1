@@ -1,18 +1,34 @@
-app.py
-import numpy as np
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, render_template, jsonify, json, request, redirect
 import pickle
-# Create flask app
-flask_app = Flask(__name__)
-model = pickle.load(open(“model.pkl”, “rb”))
-@flask_app.route(“/”)
+from pickle import dump as dump_p, load as load
+import numpy as np
+import pandas as pd
+
+#LOAD
+filename = 'ml_picklefiles/Xscaler.pkl'
+model = pickle.load(open(filename, "rb"))
+loaded_scaler=pickle.load(open('ml_picklefiles/finalized_model_nov2.sav','rb'))
+
+
+
+
+app = Flask(__name__)
+
+@app.route("/")
 def Home():
-    return render_template(“index.html”)
-@flask_app.route(“/predict”, methods = [“POST”])
+    return render_template("index.html")
+
+@app.route("/predict", methods = ["POST"])
 def predict():
     float_features = [float(x) for x in request.form.values()]
     features = [np.array(float_features)]
     prediction = model.predict(features)
-    return render_template(“index.html”, prediction_text = “The flower species is {}“.format(prediction))
-if __name__ == “__main__“:
-    flask_app.run(debug=True)
+    return render_template("index.html", prediction_text = "The flower species is {}".format(prediction))
+
+
+
+
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
