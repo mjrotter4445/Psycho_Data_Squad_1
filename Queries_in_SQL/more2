@@ -1,0 +1,32 @@
+SELECT d.job_title,
+	d.job_description, 
+	d.rating
+-- 	d.company_name, 
+-- 	d.location_ ,
+-- 	d.size_ ,
+-- 	d.founded, 
+-- 	d.type_of_ownership,
+-- 	d.industry_,
+-- 	d.sector_,
+-- 	d.revenue_, 
+-- 	d.competitors,
+-- 	d.easy_apply,
+-- 	d.department,
+-- 	d.min_salary,
+-- 	d.max_salary,
+-- 	d.senior_job,
+-- 	d.salary_lvl,
+-- 	d.salary_average,
+-- 	d.city, 
+-- 	d.state_, 
+-- 	--c.state_,
+-- 	c.city_id,
+-- 	--c.city,
+-- 	c.lat,
+-- 	c.long
+	
+--INTO datajob_geo
+FROM dataanalyst as d
+INNER JOIN cities_df_new as c
+ON d.state_ = c.state_
+;

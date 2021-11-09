@@ -1,0 +1,15 @@
+--got it working -see new table 9272 rows?  is that right?  
+--joining dataanalyst and cities_df_new
+
+
+SELECT city_id, lat, long
+INTO datajob_geo
+FROM dataanalyst as d
+LEFT JOIN cities_df_new as c 
+ON d.city = c.city
+;
+
+SELECT * FROM datajob_geo;
+
+--SELECT * FROM public.datajob_geo
+--ORDER BY id ASC 
