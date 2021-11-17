@@ -4,7 +4,7 @@
 
 ##  Overview
 Amidst the pandemic many people lost their jobs, with this dataset it is possible to hone the job search so that more people in need can find employment.
-In this project, analyze approx. 2000 job listing for data analyst positions from Kaggle.com and use a impressive custom Machine Learning tool for your personal use.   
+In this project, analyze approx. 2000 job listing for data analyst positions from Kaggle.com and use an impressive custom Machine Learning tool for your personal use.   
 
 - For more details and the presentation please click here:
 - For more information about the code and project please click here:   
