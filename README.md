@@ -7,7 +7,7 @@ Amidst the pandemic many people lost their jobs, with this dataset it is possibl
 In this project, analyze approx. 2000 job listing for data analyst positions from Kaggle.com and use an impressive custom Machine Learning tool for your personal use.   
 
 - to Use the tool, please click here:  https://dataanalystapp.herokuapp.com/
-- For more details and the presentation please click here:
+- For more details and the presentation please click here: https://docs.google.com/presentation/d/1SUl3yY8kKiKlo8MB3cTNO_I8-3BFiIz1vBOBxZ0y0hU/edit?usp=sharing
 - For more information about the code and project please click here: https://github.com/mjrotter4445/Psycho_Data_Squad_1
 
 <p align="center">
