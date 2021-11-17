@@ -8,7 +8,7 @@ In this project, analyze approx. 2000 job listing for data analyst positions fro
 
 - to Use the tool, please click here:  https://dataanalystapp.herokuapp.com/
 - For more details and the presentation please click here:
-- For more information about the code and project please click here:   
+- For more information about the code and project please click here: https://github.com/mjrotter4445/Psycho_Data_Squad_1
 
 <p align="center">
   <img width="1000" height=400" src="https://github.com/mjrotter4445/Psycho_Data_Squad_1/blob/main/Graphics/banner2.png">
