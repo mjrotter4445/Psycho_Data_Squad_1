@@ -14,3 +14,6 @@ In this project, analyze approx. 2000 job listing for data analyst positions fro
   <img width="1000" height=400" src="https://github.com/mjrotter4445/Psycho_Data_Squad_1/blob/main/Graphics/banner2.png">
 </p>
 
+
+                                                                                                                        
+                                                                                                                        
